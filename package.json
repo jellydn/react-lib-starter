@@ -1,0 +1,87 @@
+{
+  "name": "react-lib-starter",
+  "version": "0.0.1",
+  "description": "Typescript starter project",
+  "repository": "https://github.com/jellydn/react-lib-starter",
+  "license": "MIT",
+  "author": "Huynh Duc Dung",
+  "exports": {
+    ".": {
+      "browser": "./dist/react-lib-starter.module.js",
+      "umd": "./dist/react-lib-starter.umd.js",
+      "import": "./dist/react-lib-starter.module.js",
+      "require": "./dist/react-lib-starter.js"
+    }
+  },
+  "main": "./dist/react-lib-starter.js",
+  "umd:main": "./dist/react-lib-starter.umd.js",
+  "module": "./dist/react-lib-starter.module.js",
+  "source": "./src/index.ts",
+  "jsnext:main": "./dist/react-lib-starter.modern.js",
+  "browser": "./dist/react-lib-starter.umd.js",
+  "types": "./dist/index.d.ts",
+  "typings": "./dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "prebuild": "yarn clean",
+    "build": "yarn build:uncompressed",
+    "build:production": "microbundle --jsx React.createElement --external react --define process.env.NODE_ENV=production --name reactLibStarter --output dist",
+    "build:uncompressed": "microbundle --jsx React.createElement --external react --no-compress --name reactLibStarter --output dist/",
+    "clean": "rimraf dist",
+    "format": "prettier --write '**/*.{js,jsx,ts,tsx}'",
+    "lint": "xo --fix",
+    "prepare": "husky install",
+    "test": "jest",
+    "test:tsd": "tsd",
+    "typecheck": "tsc --noEmit",
+    "watch": "microbundle watch --jsx React.createElement --external react --no-compress --name reactLibStarter --output dist/"
+  },
+  "lint-staged": {
+    "*.{js,ts}": "xo --fix",
+    "*.{js,ts,css,md}": "prettier --write",
+    "package.json": "sort-package-json"
+  },
+  "xo": {
+    "rules": {
+      "import/extensions": "warn",
+      "import/order": "off",
+      "import/no-extraneous-dependencies": "warn"
+    },
+    "space": true
+  },
+  "devDependencies": {
+    "@commitlint/cli": "16.2.4",
+    "@commitlint/config-conventional": "16.2.4",
+    "@skypack/package-check": "0.2.2",
+    "@trivago/prettier-plugin-sort-imports": "3.2.0",
+    "@types/jest": "27.5.0",
+    "@types/react": "^18.0.9",
+    "@types/react-dom": "^18.0.3",
+    "husky": "8.0.1",
+    "jest": "^28.1.0",
+    "jest-environment-jsdom": "^28.1.0",
+    "lint-staged": "12.4.1",
+    "microbundle": "0.15.0",
+    "prettier": "2.6.2",
+    "react": "^18.1.0",
+    "react-dom": "^18.1.0",
+    "rimraf": "^3.0.2",
+    "sort-package-json": "1.57.0",
+    "ts-jest": "^28.0.2",
+    "ts-node": "10.7.0",
+    "tsd": "0.20.0",
+    "typescript": "4.6.4",
+    "xo": "0.48.0"
+  },
+  "peerDependencies": {
+    "react": ">=16.8.0"
+  },
+  "syntax": {
+    "esmodules": "./dist/react-lib-starter.modern.js"
+  },
+  "tsd": {
+    "directory": "tests"
+  }
+}

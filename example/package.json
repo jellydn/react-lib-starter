@@ -12,10 +12,10 @@
     "react-app-polyfill": "^3.0.0"
   },
   "devDependencies": {
-    "@types/react": "^18.0.9",
-    "@types/react-dom": "^18.0.3",
-    "parcel": "^2.5.0",
-    "typescript": "^4.6.4"
+    "@types/react": "18.0.9",
+    "@types/react-dom": "18.0.3",
+    "parcel": "2.5.0",
+    "typescript": "4.6.4"
   },
   "alias": {
     "react": "../node_modules/react",

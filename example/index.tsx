@@ -1,12 +1,11 @@
-import * as React from 'react';
-import * as ReactDOM from 'react-dom';
-
-import {Thing} from '..';
+import * as React from "react";
+import { createRoot } from "react-dom/client";
+import { YourComponent } from "react-lib-starter";
 
 const App = () => (
   <div>
-    <Thing />
+    <YourComponent />
   </div>
 );
 
-ReactDOM.render(<App />, document.querySelector('#root'));
+createRoot(document.querySelector("#root")!).render(<App />);

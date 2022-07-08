@@ -6,6 +6,8 @@
 
 > Typescript starter project
 
+Search and replace `reactLibStarter` and `react-lib-starter` with `your-lib` on your repository before running below command.
+
 ## Install
 
 ```sh

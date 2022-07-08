@@ -32,16 +32,12 @@
     "clean": "rimraf dist",
     "format": "prettier --write '**/*.{js,jsx,ts,tsx}'",
     "lint": "xo --fix",
+    "prepack": "clean-pkg-json",
     "prepare": "husky install && yarn build",
     "test": "jest",
     "test:tsd": "tsd",
     "typecheck": "tsc --noEmit",
     "watch": "microbundle watch --jsx React.createElement --external react --no-compress --name reactLibStarter --output dist/"
-  },
-  "lint-staged": {
-    "*.{js,ts}": "xo --fix",
-    "*.{js,ts,css,md}": "prettier --write",
-    "package.json": "sort-package-json"
   },
   "xo": {
     "rules": {
@@ -59,12 +55,13 @@
     "@trivago/prettier-plugin-sort-imports": "3.2.0",
     "@types/jest": "28.1.4",
     "@types/react": "18.0.15",
-    "@types/react-dom": "18.0.5",
+    "@types/react-dom": "18.0.6",
+    "clean-pkg-json": "1.0.0",
     "husky": "8.0.1",
     "jest": "28.1.2",
     "jest-environment-jsdom": "28.1.2",
-    "lint-staged": "13.0.3",
     "microbundle": "0.15.0",
+    "nano-staged": "0.8.0",
     "prettier": "2.7.1",
     "react": "18.2.0",
     "react-dom": "18.2.0",
@@ -78,6 +75,11 @@
   },
   "peerDependencies": {
     "react": ">=16.8.0"
+  },
+  "nano-staged": {
+    "*.{js,ts}": "xo --fix",
+    "*.{js,ts,css,md}": "prettier --write",
+    "package.json": "sort-package-json"
   },
   "syntax": {
     "esmodules": "./dist/react-lib-starter.modern.js"

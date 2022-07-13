@@ -53,7 +53,7 @@
     "@skypack/package-check": "0.2.2",
     "@swc/helpers": "0.4.3",
     "@trivago/prettier-plugin-sort-imports": "3.2.0",
-    "@types/jest": "28.1.4",
+    "@types/jest": "28.1.5",
     "@types/react": "18.0.15",
     "@types/react-dom": "18.0.6",
     "clean-pkg-json": "1.0.0",

@@ -1,6 +1,6 @@
-import * as React from "react";
-import { createRoot } from "react-dom/client";
-import { YourComponent } from "react-lib-starter";
+import * as React from 'react';
+import {createRoot} from 'react-dom/client.js';
+import {YourComponent} from 'react-lib-starter';
 
 const App = () => (
   <div>
@@ -8,4 +8,4 @@ const App = () => (
   </div>
 );
 
-createRoot(document.querySelector("#root")!).render(<App />);
+createRoot(document.querySelector('#root')!).render(<App />);

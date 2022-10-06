@@ -61,7 +61,7 @@
     "@vitest/ui": "0.23.4",
     "c8": "7.12.0",
     "clean-pkg-json": "1.2.0",
-    "happy-dom": "6.0.4",
+    "happy-dom": "7.0.2",
     "husky": "8.0.1",
     "microbundle": "0.15.1",
     "nano-staged": "0.8.0",

@@ -3840,10 +3840,10 @@ gzip-size@^6.0.0:
   dependencies:
     duplexer "^0.1.2"
 
-happy-dom@7.0.2:
-  version "7.0.2"
-  resolved "https://registry.yarnpkg.com/happy-dom/-/happy-dom-7.0.2.tgz#2bfe333ac6f1f5455cb289de5a0325ac700662ae"
-  integrity sha512-txbwa1IUKUBxBeTYgwlXxMN6spD125XzuqY3OWZL2RiWIO3sTwXM387Nxlx8/9Tna+cF8ohvizrghnGeC5vdpg==
+happy-dom@7.6.6:
+  version "7.6.6"
+  resolved "https://registry.yarnpkg.com/happy-dom/-/happy-dom-7.6.6.tgz#f94ce99c5a32d1ea8578b75e8f584e8fcd162513"
+  integrity sha512-28NxRiHXjzhr+BGciLNUoQW4OaBnQPRT/LPYLufh0Fj3Iwh1j9qJaozjBm/Uqdj5Ps4cukevQ7ERieA6Ddwf1g==
   dependencies:
     css.escape "^1.5.1"
     he "^1.2.0"

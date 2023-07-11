@@ -1855,10 +1855,10 @@
   dependencies:
     "@types/istanbul-lib-report" "*"
 
-"@types/jest@29.5.2":
-  version "29.5.2"
-  resolved "https://registry.yarnpkg.com/@types/jest/-/jest-29.5.2.tgz#86b4afc86e3a8f3005b297ed8a72494f89e6395b"
-  integrity sha512-mSoZVJF5YzGVCk+FsDxzDuH7s+SCkzrgKZzf0Z0T2WudhBUPoF6ktoTPC4R0ZoCPCV5xUvuU6ias5NvxcBcMMg==
+"@types/jest@29.5.3":
+  version "29.5.3"
+  resolved "https://registry.yarnpkg.com/@types/jest/-/jest-29.5.3.tgz#7a35dc0044ffb8b56325c6802a4781a626b05777"
+  integrity sha512-1Nq7YrO/vJE/FYnqYyw0FS8LdrjExSgIiHyKg7xPpn+yi8Q4huZryKnkJatN1ZRH89Kw2v33/8ZMB7DuZeSLlA==
   dependencies:
     expect "^29.0.0"
     pretty-format "^29.0.0"
@@ -3982,10 +3982,10 @@ gzip-size@^6.0.0:
   dependencies:
     duplexer "^0.1.2"
 
-happy-dom@10.0.5:
-  version "10.0.5"
-  resolved "https://registry.yarnpkg.com/happy-dom/-/happy-dom-10.0.5.tgz#76e74cd3b552b118f941a51079e239fadb037ea2"
-  integrity sha512-etSkg+ExjJNI3XYexGSatZVpRbCgYN4YFIDTm+Ei0iRkelf6h6IGkEWy4x2/FcfuUn/nPUh5XNZz7tFvqKaehw==
+happy-dom@10.1.1:
+  version "10.1.1"
+  resolved "https://registry.yarnpkg.com/happy-dom/-/happy-dom-10.1.1.tgz#1d5595a6dfbaeaab35ff814b0ffcc3c1e0882eca"
+  integrity sha512-/9AMl/rwMCAz/lAs55W0B2p9I/RfnMWmR2iBI1/twz0+XZYrVgHyJzrBTpHDZlbf00NRk/pFoaktKPtdAP5Tlg==
   dependencies:
     css.escape "^1.5.1"
     entities "^4.5.0"

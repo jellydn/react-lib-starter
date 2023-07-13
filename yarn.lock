@@ -1794,10 +1794,19 @@
   dependencies:
     "@types/react" "*"
 
-"@types/react@*", "@types/react@18.2.14":
+"@types/react@*":
   version "18.2.14"
   resolved "https://registry.yarnpkg.com/@types/react/-/react-18.2.14.tgz#fa7a6fecf1ce35ca94e74874f70c56ce88f7a127"
   integrity sha512-A0zjq+QN/O0Kpe30hA1GidzyFjatVvrpIvWLxD+xv67Vt91TWWgco9IvrJBkeyHm1trGaFS/FSGqPlhyeZRm0g==
+  dependencies:
+    "@types/prop-types" "*"
+    "@types/scheduler" "*"
+    csstype "^3.0.2"
+
+"@types/react@18.2.15":
+  version "18.2.15"
+  resolved "https://registry.yarnpkg.com/@types/react/-/react-18.2.15.tgz#14792b35df676c20ec3cf595b262f8c615a73066"
+  integrity sha512-oEjE7TQt1fFTFSbf8kkNuc798ahTUzn3Le67/PWjE8MAfYAD/qB7O8hSTcromLFqHCt9bcdOg5GXMokzTjJ5SA==
   dependencies:
     "@types/prop-types" "*"
     "@types/scheduler" "*"
@@ -3840,10 +3849,10 @@ gzip-size@^6.0.0:
   dependencies:
     duplexer "^0.1.2"
 
-happy-dom@10.2.0:
-  version "10.2.0"
-  resolved "https://registry.yarnpkg.com/happy-dom/-/happy-dom-10.2.0.tgz#77aa9afca10a6c543d2236b9f65cc16a825d8d12"
-  integrity sha512-qhxEr49zqw2D10lIRMva/Ca647CMrdcFIT5fk9cnqXOq3LXufQnDnszto/MQBldWYwlWWAipFZAB+A0W0/MMdA==
+happy-dom@10.3.2:
+  version "10.3.2"
+  resolved "https://registry.yarnpkg.com/happy-dom/-/happy-dom-10.3.2.tgz#9dc14ecd6918484be21835582606567b2767de82"
+  integrity sha512-SmV12YEaaAlEfhfq+4unIHkyvqY08as7x9dM+Q6TxjNpHX0k3ihJ4mukjxxstEpx463XhVQJsAKGlNoVdKWsVA==
   dependencies:
     css.escape "^1.5.1"
     entities "^4.5.0"

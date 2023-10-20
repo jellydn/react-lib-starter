@@ -50,13 +50,13 @@
     "space": true
   },
   "devDependencies": {
-    "@commitlint/cli": "17.8.0",
-    "@commitlint/config-conventional": "17.8.0",
+    "@commitlint/cli": "17.8.1",
+    "@commitlint/config-conventional": "17.8.1",
     "@skypack/package-check": "0.2.2",
     "@swc/helpers": "0.5.3",
     "@trivago/prettier-plugin-sort-imports": "4.2.0",
     "@types/jest": "29.5.6",
-    "@types/react": "18.2.30",
+    "@types/react": "18.2.31",
     "@types/react-dom": "18.2.14",
     "@vitest/ui": "0.34.6",
     "c8": "8.0.1",

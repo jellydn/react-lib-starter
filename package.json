@@ -56,7 +56,7 @@
     "@swc/helpers": "0.5.6",
     "@trivago/prettier-plugin-sort-imports": "4.3.0",
     "@types/jest": "29.5.12",
-    "@types/react": "18.2.54",
+    "@types/react": "18.2.55",
     "@types/react-dom": "18.2.18",
     "@vitest/ui": "1.2.2",
     "c8": "8.0.1",
@@ -74,7 +74,7 @@
     "typescript": "5.3.3",
     "vite": "5.0.12",
     "vitest": "1.2.2",
-    "xo": "0.56.0"
+    "xo": "0.57.0"
   },
   "peerDependencies": {
     "react": ">=16.8.0"

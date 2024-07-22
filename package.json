@@ -71,7 +71,7 @@
     "rimraf": "5.0.9",
     "sort-package-json": "2.10.0",
     "tsd": "0.31.1",
-    "typescript": "5.5.3",
+    "typescript": "5.5.4",
     "vite": "5.3.4",
     "vitest": "1.6.0",
     "xo": "0.59.0"

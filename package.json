@@ -58,7 +58,7 @@
     "@types/jest": "29.5.12",
     "@types/react": "18.3.3",
     "@types/react-dom": "18.3.0",
-    "@vitest/ui": "1.6.0",
+    "@vitest/ui": "2.0.5",
     "c8": "10.1.2",
     "clean-pkg-json": "1.2.0",
     "happy-dom": "14.12.3",
@@ -73,7 +73,7 @@
     "tsd": "0.31.1",
     "typescript": "5.5.4",
     "vite": "5.4.0",
-    "vitest": "1.6.0",
+    "vitest": "2.0.5",
     "xo": "0.59.3"
   },
   "peerDependencies": {

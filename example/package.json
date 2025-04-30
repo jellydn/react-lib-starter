@@ -13,7 +13,7 @@
   "dependencies": {},
   "devDependencies": {
     "@types/react": "18.3.20",
-    "@types/react-dom": "18.3.6",
+    "@types/react-dom": "18.3.7",
     "parcel": "2.14.4",
     "rimraf": "5.0.10",
     "typescript": "5.8.3"

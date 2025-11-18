@@ -12,8 +12,8 @@
   "browserslist": "> 0.5%, last 2 versions, not dead",
   "dependencies": {},
   "devDependencies": {
-    "@types/react": "18.3.26",
-    "@types/react-dom": "18.3.7",
+    "@types/react": "19.2.6",
+    "@types/react-dom": "19.2.3",
     "parcel": "2.16.0",
     "rimraf": "5.0.10",
     "typescript": "5.9.3"
